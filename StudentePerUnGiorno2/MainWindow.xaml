@@ -5,16 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:StudentePerUnGiorno2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="386" Width="494">
+        Title="MainWindow" Height="346" Width="494">
     <Grid Background="#FF00FFF3">
         <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="Number generator" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="70" Width="280" FontSize="22" FontWeight="Bold" FontFamily="Stencil" Foreground="#FF0C00FF"/>
-        <CheckBox Name="cbox" Content="Enabled" HorizontalAlignment="Left" Margin="310,85,0,0" VerticalAlignment="Top" Height="28" Width="110" FontSize="20" Checked="cbox_Checked" Unchecked="cbox_Unchecked" Foreground="Black"/>
-        <TextBox IsReadOnly="True" Name="txt1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="23" Margin="45,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" FontSize="14" Foreground="#FF0C00FF" Background="#FFB6F8FF"/>
-        <TextBox IsReadOnly="True" Name="txt2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="23" Margin="45,197,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" FontSize="14" Foreground="#FF0C00FF" Background="#FFB6F8FF"/>
-        <Slider IsEnabled="False" Name="sld1" HorizontalAlignment="Left" Margin="285,137,0,0" VerticalAlignment="Top" Width="135" Height="23" ValueChanged="sld1_ValueChanged"/>
-        <Slider IsEnabled="False" Name="sld2" HorizontalAlignment="Left" Margin="285,197,0,0" VerticalAlignment="Top" Width="135" Height="23" ValueChanged="sld2_ValueChanged"/>
-        <TextBox IsReadOnly="True" Name="txtSomma" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="40" Margin="160,267,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="260" FontSize="18" Foreground="#FF0C00FF" Background="#FFB6F8FF"/>
-        <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="Somma:" HorizontalAlignment="Left" Margin="45,267,0,0" VerticalAlignment="Top" Width="85" Height="40" FontSize="20" Foreground="Black"/>
+        <CheckBox Name="cbox" Content="Enabled" HorizontalAlignment="Left" Margin="310,30,0,0" VerticalAlignment="Top" Height="28" Width="110" FontSize="20" Checked="cbox_Checked" Unchecked="cbox_Unchecked" Foreground="Black"/>
+        <TextBox IsReadOnly="True" Name="txt1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="23" Margin="45,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" FontSize="14" Foreground="#FF0C00FF" Background="#FFB6F8FF"/>
+        <TextBox IsReadOnly="True" Name="txt2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="23" Margin="45,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" FontSize="14" Foreground="#FF0C00FF" Background="#FFB6F8FF"/>
+        <Slider IsEnabled="False" Name="sld1" HorizontalAlignment="Left" Margin="285,100,0,0" VerticalAlignment="Top" Width="135" Height="23" ValueChanged="sld1_ValueChanged"/>
+        <Slider IsEnabled="False" Name="sld2" HorizontalAlignment="Left" Margin="285,170,0,0" VerticalAlignment="Top" Width="135" Height="23" ValueChanged="sld2_ValueChanged"/>
+        <TextBox IsReadOnly="True" Name="txtSomma" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="40" Margin="160,235,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="260" FontSize="18" Foreground="#FF0C00FF" Background="#FFB6F8FF"/>
+        <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="Somma:" HorizontalAlignment="Left" Margin="45,235,0,0" VerticalAlignment="Top" Width="85" Height="40" FontSize="20" Foreground="Black"/>
 
     </Grid>
 </Window>
