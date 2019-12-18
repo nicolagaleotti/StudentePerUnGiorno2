@@ -23,6 +23,42 @@ namespace StudentePerUnGiorno2
         public MainWindow()
         {
             InitializeComponent();
+            sld1.Minimum = 0;
+            sld1.Maximum = 50;
+            sld2.Minimum = 0;
+            sld2.Maximum = 50;
+        }
+        int somma;
+        private void sld1_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            int n1 = (int)sld1.Value;
+            txt1.Text = n1.ToString();
+            int n2 = (int)sld2.Value;
+            txt2.Text = n2.ToString();
+            somma = n1 + n2;
+            txtSomma.Text = somma.ToString();
+        }
+
+        private void sld2_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            int n1 = (int)sld1.Value;
+            txt1.Text = n1.ToString();
+            int n2 = (int)sld2.Value;
+            txt2.Text = n2.ToString();
+            somma = n1 + n2;
+            txtSomma.Text = somma.ToString();
+        }
+
+        private void cbox_Checked(object sender, RoutedEventArgs e)
+        {
+            sld1.IsEnabled = true;
+            sld2.IsEnabled = true;
+        }
+
+        private void cbox_Unchecked(object sender, RoutedEventArgs e)
+        {
+            sld1.IsEnabled = false;
+            sld2.IsEnabled = false;
         }
     }
 }
