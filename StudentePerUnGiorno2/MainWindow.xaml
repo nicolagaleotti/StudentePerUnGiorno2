@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:StudentePerUnGiorno2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="346" Width="494">
+        Title="MainWindow" Height="376" Width="494">
     <Grid>
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -19,8 +19,14 @@
         <TextBox IsReadOnly="True" Name="txt2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="23" Margin="45,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" FontSize="14" Foreground="#FF0C00FF" Background="#FFB6F8FF"/>
         <Slider IsEnabled="False" Name="sld1" HorizontalAlignment="Left" Margin="285,100,0,0" VerticalAlignment="Top" Width="135" Height="23" ValueChanged="sld1_ValueChanged"/>
         <Slider IsEnabled="False" Name="sld2" HorizontalAlignment="Left" Margin="285,170,0,0" VerticalAlignment="Top" Width="135" Height="23" ValueChanged="sld2_ValueChanged"/>
-        <TextBox IsReadOnly="True" Name="txtSomma" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="40" Margin="160,235,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="260" FontSize="18" Foreground="#FF0C00FF" Background="#FFB6F8FF"/>
-        <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="Somma:" HorizontalAlignment="Left" Margin="45,235,0,0" VerticalAlignment="Top" Width="85" Height="40" FontSize="20" Foreground="White"/>
+        <TextBox IsReadOnly="True" Name="txtSomma" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="40" Margin="111,235,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="18" Foreground="#FF0C00FF" Background="#FFB6F8FF"/>
+        <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="Somma:" HorizontalAlignment="Left" Margin="10,235,0,0" VerticalAlignment="Top" Width="85" Height="40" FontSize="20" Foreground="White"/>
+        <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="Sottrazione:" HorizontalAlignment="Left" Margin="236,235,0,0" VerticalAlignment="Top" Width="115" Height="40" FontSize="20" Foreground="White"/>
+        <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="Prodotto:" HorizontalAlignment="Left" Margin="0,296,0,0" VerticalAlignment="Top" Width="105" Height="40" FontSize="20" Foreground="White"/>
+        <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="Divisione:" HorizontalAlignment="Left" Margin="236,296,0,0" VerticalAlignment="Top" Width="115" Height="40" FontSize="20" Foreground="White"/>
+        <TextBox IsReadOnly="True" x:Name="txtSottrazione" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="40" Margin="356,235,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="18" Foreground="#FF0C00FF" Background="#FFB6F8FF"/>
+        <TextBox IsReadOnly="True" x:Name="txtProdotto" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="40" Margin="111,296,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="18" Foreground="#FF0C00FF" Background="#FFB6F8FF"/>
+        <TextBox IsReadOnly="True" x:Name="txtDivisione" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="40" Margin="356,296,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="18" Foreground="#FF0C00FF" Background="#FFB6F8FF"/>
 
     </Grid>
 </Window>

@@ -29,24 +29,53 @@ namespace StudentePerUnGiorno2
             sld2.Maximum = 50;
         }
         int somma;
+        int sottrazione;
+        int prodotto;
+        int divisione;
         private void sld1_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
-            int n1 = (int)sld1.Value;
-            txt1.Text = n1.ToString();
-            int n2 = (int)sld2.Value;
-            txt2.Text = n2.ToString();
-            somma = n1 + n2;
-            txtSomma.Text = somma.ToString();
+            try
+            {
+                int n1 = (int)sld1.Value;
+                txt1.Text = n1.ToString();
+                int n2 = (int)sld2.Value;
+                txt2.Text = n2.ToString();
+                somma = n1 + n2;
+                txtSomma.Text = somma.ToString();
+                sottrazione = n1 - n2;
+                txtSottrazione.Text = sottrazione.ToString();
+                prodotto = n1 * n2;
+                txtProdotto.Text = prodotto.ToString();
+                divisione = n1 / n2;
+                txtDivisione.Text = divisione.ToString();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void sld2_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
-            int n1 = (int)sld1.Value;
-            txt1.Text = n1.ToString();
-            int n2 = (int)sld2.Value;
-            txt2.Text = n2.ToString();
-            somma = n1 + n2;
-            txtSomma.Text = somma.ToString();
+            try
+            {
+                int n1 = (int)sld1.Value;
+                txt1.Text = n1.ToString();
+                int n2 = (int)sld2.Value;
+                txt2.Text = n2.ToString();
+                somma = n1 + n2;
+                txtSomma.Text = somma.ToString();
+                sottrazione = n1 - n2;
+                txtSottrazione.Text = sottrazione.ToString();
+                prodotto = n1 * n2;
+                txtProdotto.Text = prodotto.ToString();
+                divisione = n1 / n2;
+                txtDivisione.Text = divisione.ToString();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void cbox_Checked(object sender, RoutedEventArgs e)
